@@ -42,6 +42,7 @@
 }
 
 #typed-cursor{
+	font-size: 48px;
 	opacity: 1;
 	-webkit-animation: blink 0.7s infinite;
 	-moz-animation: blink 0.7s infinite;
