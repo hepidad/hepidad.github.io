@@ -8,10 +8,11 @@
 	font-size: 22px;
 } 
 
-.nav ul {
+.nav {
 	font-family: 'Roboto Slab', serif;
 	font-size: 18px;
 } 
 
-.nav li{
+.nav li {
     display: inline;
+}
