@@ -6,4 +6,12 @@
 .jumbotron p {
 	font-family: 'Roboto Slab', serif;
 	font-size: 18px;
-}
+} 
+
+.jumbotron p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+} 
+
+.nav li{
+    display: inline;
