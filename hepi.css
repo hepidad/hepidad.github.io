@@ -1,13 +1,14 @@
 .jumbotron {
-	background-image: url("bg.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
+	
 }
 
 
 .jumbotron .container {
-  position: relative;
-  top:150px;
+  	position: relative;
+  	top:150px;
+  	background-image: url("bg.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .jumbotron h1 {
