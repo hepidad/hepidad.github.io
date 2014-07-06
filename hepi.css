@@ -1,13 +1,19 @@
 .jumbotron {
 	background-image: url("bg.jpg");
-	background-size: contain;
 	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 
 .jumbotron .container {
   	position: relative;
   	top:150px;
+  	width: 100%;
+    height: auto;
+    padding: 100px 0;
   	
 }
 
