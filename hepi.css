@@ -1,4 +1,6 @@
 .jumbotron {
+	width: 100%;
+    height: auto;
 	background-image: url("bg.jpg");
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -10,10 +12,7 @@
 
 .jumbotron .container {
   	position: relative;
-  	top:150px;
-  	width: 100%;
-    height: auto;
-  	
+  	top:150px;	
 }
 
 .jumbotron h1 {
@@ -39,24 +38,4 @@
 
 .nav li {
     display: inline;
-}
-
-.intro {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-    background: url("bg.jpg") no-repeat bottom center scroll; /* http://unsplash.com/post/55049061477/download-luke-chesser */
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.intro-body {
-    display: table-cell;
-    vertical-align: middle;
 }
