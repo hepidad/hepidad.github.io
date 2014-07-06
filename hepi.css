@@ -12,20 +12,20 @@
 .jumbotron h1 {
 	color: #fff;
 	font-family: 'Roboto Slab', serif;
-	font-size: 28px;
+	font-size: 48px;
 }
 
 .jumbotron p {
 	color: #fff;
 	background-image: "bg.jpg";
 	font-family: 'Roboto Slab', serif;
-	font-size: 22px;
+	font-size: 38px;
 } 
 
 .nav a {
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
-  	font-size: 11px;
+  	font-size: 28px;
   	font-weight: bold;
   	padding: 14px 10px;
   	text-transform: uppercase;
