@@ -1,6 +1,7 @@
 .jumbotron {
 	background-image: url("bg.jpg");
-	height: 782px;
+	height: 800px;
+	background-repeat: no-repeat;
 }
 
 
