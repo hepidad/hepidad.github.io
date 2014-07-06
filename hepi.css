@@ -1,5 +1,6 @@
 .jumbotron {
-	
+	width: 100%;
+    height: auto;
 	background-image: url("bg.jpg");
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -11,7 +12,7 @@
 
 .jumbotron .container {
   	position: relative;
-  	top:150px;	
+  	top:100px;	
 }
 
 .jumbotron h1 {
