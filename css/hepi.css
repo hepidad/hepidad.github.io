@@ -1,20 +1,20 @@
-.jumbotron .container {
+.section .container {
   	position: relative;
   	top:30px;	
 }
 
-.jumbotron h1 {
+.section h1 {
 	color: #2c3e50;
 	font-family: 'Roboto Slab', serif;
 	font-size: 40px;
 }
 
-.jumbotron h2 {
+.section h2 {
 	color: #e67e22;
 	font-family: 'Roboto Slab', serif;
 	font-size: 48px;
 }
-.jumbotron p {
+.section p {
 	color: #34495e;
 	font-family: 'Roboto Slab', serif;
 	font-size: 30px;
