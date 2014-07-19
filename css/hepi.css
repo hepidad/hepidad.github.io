@@ -1,25 +1,10 @@
-.header .container {
-  	position: relative;
-  	top:30px;	
+body {
+    width: 100%;
+    height: 100%;
+    font-family:'Roboto Slab',Helvetica,Arial,sans-serif;
+    color: #fff;
+    background-color: #000;
 }
-
-#header h1 {
-	color: #2c3e50;
-	font-family: 'Roboto Slab', serif;
-	font-size: 40px;
-}
-
-.header h2 {
-	color: #e67e22;
-	font-family: 'Roboto Slab', serif;
-	font-size: 48px;
-}
-
-.header p {
-	color: #34495e;
-	font-family: 'Roboto Slab', serif;
-	font-size: 30px;
-} 
 
 .nav a {
 	font-family: 'Roboto Slab', serif;
@@ -72,4 +57,70 @@ min-height: 100%;
 z-index: -100;
 background: transparent url(http://video-js.zencoder.com/oceans-clip.png) no-repeat;
 background-size: cover;
+} 
+
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #000;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
 }
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:767px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro-text {
+        font-size: 25px;
+    }
+}
+
+
