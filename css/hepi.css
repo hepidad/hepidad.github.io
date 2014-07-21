@@ -6,16 +6,13 @@ body {
     background-color: #34495e;
 }
 
-.nav a {
+
+.aboutme p {
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
-  	font-size: 18px;
+  	font-size: 38px;
   	padding: 14px 10px;
 } 
-
-.nav li {
-    display: inline;
-}
 
 .element{
 	display: inline;
