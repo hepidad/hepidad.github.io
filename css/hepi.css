@@ -109,7 +109,7 @@ header{
 .banner{
 	overflow:hidden;
 	margin:0 auto !important;
-	background:#5a5a5a;
+	background:#34495e;
 }
 
 .bannerText{
@@ -121,7 +121,7 @@ header{
 	padding:30px 0 30px ;
 	max-width:960px;
 	border:1px solid #fff;
-	background: #5a5a5a;
+	background:#34495e;
 	zoom: 1;
 }
 .bannerText h1{
