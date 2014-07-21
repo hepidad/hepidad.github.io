@@ -124,9 +124,7 @@ header{
 	background:#34495e;
 	zoom: 1;
 }
-.bannerText h1{
-	text-transform:uppercase;
-}
+
 .bannerText h2{
 	font-size:34px;
 	text-transform:none;
