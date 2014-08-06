@@ -1,3 +1,7 @@
+html,body {
+  height:100%;
+}
+
 
 h1{
 	font-family: 'Roboto Slab', sans-serif;
@@ -44,6 +48,10 @@ h4.subHeading{
 	font-weight:600;
 	font-size:18px;
 	padding-bottom:22px;
+}
+
+.v-center {
+  margin-top:7%;
 }
 
 .aboutme p {
