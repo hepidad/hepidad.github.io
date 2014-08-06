@@ -54,6 +54,13 @@ h4.subHeading{
   margin-top:7%;
 }
 
+.quotes {
+	font-family: 'Roboto Slab', serif;
+	color: #5a5a5a;
+  	font-size: 38px;
+  	padding: 14px 10px;
+}
+
 .aboutme p {
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
