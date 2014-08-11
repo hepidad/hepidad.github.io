@@ -68,21 +68,19 @@ h4.subHeading{
   	padding: 14px 10px;
 } 
 
-
 .blogcontent p {
+  font-family: 'Roboto Slab', serif;
+  color: #5a5a5a;
+    font-size: 38px;
+    padding: 14px 10px;
+}
+
+.bloglist p {
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
-  	font-size: 38px;
+  	font-size: 18px;
   	padding: 14px 10px;
 } 
-
-
-.philosophy li {
-	font-family: 'Roboto Slab', serif;
-	color: #5a5a5a;
-  	font-size: 38px;
-  	padding: 14px 10px;
-}
 
 .element{
 	display: inline;
