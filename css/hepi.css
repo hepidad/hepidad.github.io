@@ -54,10 +54,10 @@ h4.subHeading{
   margin-top:7%;
 }
 
-.quotes {
+.quotes p {
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
-  	font-size: 38px;
+  	font-size: 12px;
   	padding: 14px 10px;
 }
 
@@ -67,6 +67,15 @@ h4.subHeading{
   	font-size: 38px;
   	padding: 14px 10px;
 } 
+
+
+.blogcontent p {
+	font-family: 'Roboto Slab', serif;
+	color: #5a5a5a;
+  	font-size: 38px;
+  	padding: 14px 10px;
+} 
+
 
 .philosophy li {
 	font-family: 'Roboto Slab', serif;
@@ -150,7 +159,7 @@ background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-backgorund-size: cover;
 }
 
 .intro-body {
@@ -191,4 +200,123 @@ background-size: cover;
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+}
+
+
+#columns {
+	column-width: 320px;
+	column-gap: 15px;
+  width: 90%;
+	max-width: 1100px;
+	margin: 50px auto;
+}
+
+div#columns figure {
+	background: #fefefe;
+	border: 2px solid #fcfcfc;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	padding: 15px;
+	padding-bottom: 10px;
+	transition: opacity .4s ease-in-out;
+  display: inline-block;
+  column-break-inside: avoid;
+}
+
+div#columns figure img {
+	width: 100%; height: auto;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+div#columns figure figcaption {
+  font-size: .9rem;
+	color: #444;
+  line-height: 1.5;
+}
+
+div#columns small { 
+  font-size: 1rem;
+  float: right; 
+  text-transform: uppercase;
+  color: #aaa;
+} 
+
+div#columns small a { 
+  color: #666; 
+  text-decoration: none; 
+  transition: .4s color;
+}
+
+div#columns:hover figure:not(:hover) {
+	opacity: 0.4;
+}
+
+@media screen and (max-width: 750px) { 
+  #columns { column-gap: 0px; }
+  #columns figure { width: 100%; }
+}
+
+
+
+
+.bqcustoms{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: 'Special Elite', cursive;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+  
+  /*Borders - (Optional)
+  border-left: 15px solid #e67e22;
+  border-right: 2px solid #e67e22;*/
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
+.bqcustoms::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: 'Special Elite', cursive;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+.bqcustoms::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+.bqcustoms a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #c76c0c;
+}
+
+.bqcustoms a:hover{
+ color: #666;
+}
+
+.bqcustoms em{
+  font-style: italic;
 }
