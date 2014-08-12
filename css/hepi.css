@@ -259,7 +259,7 @@ div#columns:hover figure:not(:hover) {
 
 
 
-.bqcustoms{
+.bq-hepi{
   display:block;
   background: #fff;
   padding: 15px 20px 15px 45px;
@@ -283,7 +283,7 @@ div#columns:hover figure:not(:hover) {
   box-shadow: 2px 2px 15px #ccc;
 }
 
-.bqcustoms::before{
+.bq-hepi::before{
   content: "\201C"; /*Unicode for Left Double Quote*/
   
   /*Font*/
@@ -298,12 +298,12 @@ div#columns:hover figure:not(:hover) {
   top:5px;
 }
 
-.bqcustoms::after{
+.bq-hepi::after{
   /*Reset to make sure*/
   content: "";
 }
 
-.bqcustoms a{
+.bq-hepi a{
   text-decoration: none;
   background: #eee;
   cursor: pointer;
@@ -311,10 +311,17 @@ div#columns:hover figure:not(:hover) {
   color: #c76c0c;
 }
 
-.bqcustoms a:hover{
+.bq-hepi a:hover{
  color: #666;
 }
 
-.bqcustoms em{
+.bq-hepi em{
   font-style: italic;
+}
+
+
+.hepidisclaimer p{
+  color:  #5a5a5a; /*Color of Disclaimer Text*/
+  font-size: 12px; /*Font Size of Disclaimer Text*/
+  font-family: 'Roboto Slab', sans-serif; /*Web Safe Font Family of Disclaimer Text*/
 }
