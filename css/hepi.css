@@ -54,45 +54,32 @@ h4.subHeading{
   margin-top:7%;
 }
 
-.quotes p {
+.quotes .hepinavbar  p {
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
-  	font-size: 12px;
-  	padding: 14px 10px;
-}
-
-.aboutme p {
-	font-family: 'Roboto Slab', serif;
-	color: #5a5a5a;
-  	font-size: 38px;
-  	padding: 14px 10px;
-} 
-
-.blogcontent p {
-  font-family: 'Roboto Slab', serif;
-  color: #5a5a5a;
-    font-size: 38px;
-    padding: 14px 10px;
+  font-size: 12px;
+  padding: 14px 10px;
 }
 
 .bloglist p {
+  font-family: 'Roboto Slab', serif;
+  color: #5a5a5a;
+  font-size: 18px;
+  padding: 14px 10px;
+} 
+
+.aboutme .blogcontent p {
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
-  	font-size: 18px;
-  	padding: 14px 10px;
+  font-size: 38px;
+  padding: 14px 10px;
 } 
+
 
 .element{
 	display: inline;
 	color: #e67e22;
 	font-size: 48px;
-}
-
-.hepinavbar p {
-  font-family: 'Roboto Slab', serif;
-  color: #5a5a5a;
-    font-size: 12px;
-    padding: 14px 10px;
 }
 
 #typed-cursor{
@@ -262,8 +249,6 @@ div#columns:hover figure:not(:hover) {
   #columns { column-gap: 0px; }
   #columns figure { width: 100%; }
 }
-
-
 
 
 .bq-hepi{
