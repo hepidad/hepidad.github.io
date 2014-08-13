@@ -5,70 +5,49 @@ html,body {
 
 h1{
 	font-family: 'Roboto Slab', sans-serif;
-	font-size:80px;
-	line-height:90px;
-	font-weight:700;
-	margin:0px;
-	padding-bottom:8px;
+	font-size:58px;
+  color: #5a5a5a;
+	padding: 14px 10px;
 }
 h2{
 	font-family: 'Roboto Slab', sans-serif;
-	font-size:36px;
-	line-height:38px;
-	padding-bottom:0px;
-	font-weight:300;
-	margin:0px;
+	font-size:28px;
+	color: #5a5a5a;
+  padding: 14px 10px;
 }
 h3{
 	font-family: 'Roboto Slab', sans-serif;
-	font-size:24px;
-	line-height:30px;
-	padding-bottom:6px;
-	font-weight:400;
-	margin:0px;
-}
-h4{
-	font-family: 'Roboto Slab', sans-serif;
-	font-size:19px;
-	line-height:24px;
-	padding-bottom:6px;
-	font-weight:600;
-	margin:0px;
-}
-h5{
-	font-family: 'Roboto Slab', sans-serif;
-	font-size:16px;
-	line-height:24px;
-	padding-bottom:6px;
-	font-weight:400;
-	margin:0px;
-}
-
-h4.subHeading{
-	font-weight:600;
 	font-size:18px;
-	padding-bottom:22px;
+	color: #5a5a5a;
+  padding: 14px 10px;
 }
 
 .v-center {
   margin-top:7%;
 }
 
-.quotes .hepinavbar  p {
+.quotes  p{
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
   font-size: 12px;
   padding: 14px 10px;
 }
 
-.bloglist p {
+.hepinavbar  p{
+  font-family: 'Roboto Slab', serif;
+  color: #5a5a5a;
+  font-size: 12px;
+  padding: 14px 10px;
+}
+
+.bloglist p{
   font-family: 'Roboto Slab', serif;
   color: #5a5a5a;
   font-size: 18px;
   padding: 14px 10px;
 } 
 
-.aboutme .blogcontent p {
+.blogcontent p {
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
   font-size: 38px;
