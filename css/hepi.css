@@ -354,3 +354,14 @@ div#columns:hover figure:not(:hover) {
   left: 0;
 }
 
+@media screen and (min-width: 768px) {
+  .blueimp-gallery .modal-dialog {
+    right: auto;
+    left: auto;
+    width: auto;
+    max-width: 900px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
