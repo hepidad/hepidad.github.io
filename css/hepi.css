@@ -88,6 +88,13 @@ h4.subHeading{
 	font-size: 48px;
 }
 
+.hepinavbar p {
+  font-family: 'Roboto Slab', serif;
+  color: #5a5a5a;
+    font-size: 12px;
+    padding: 14px 10px;
+}
+
 #typed-cursor{
 	font-size: 48px;
 	opacity: 1;
