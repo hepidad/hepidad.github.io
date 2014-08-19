@@ -17,7 +17,7 @@ $(function () {
 
     // Load demo images from flickr:
     $.ajax({
-        url: 'https://api.flickr.com/services/rest/?',
+        url: 'https://api.flickr.com/services/rest/',
         data: {
             method: 'flickr.photosets.getPhotos',
             
