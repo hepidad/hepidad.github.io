@@ -21,9 +21,10 @@ $(function () {
         data: {
             format: 'json',
             //method: 'flickr.interestingness.getList',
-            method: 'flickr.photosets.getList',
+            method: 'flickr.photosets.getPhoto',
             //api_key: '7617adae70159d09ba78cfec73c13be3'
-            api_key: 'a2f11fcd00e89c6a6e9659e9470a5f6b'
+            api_key: 'a2f11fcd00e89c6a6e9659e9470a5f6b',
+            photoset_id: '72157646413131665'
         },
         dataType: 'jsonp',
         jsonp: 'jsoncallback'
