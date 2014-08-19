@@ -17,15 +17,16 @@ $(function () {
 
     // Load demo images from flickr:
     $.ajax({
-        url: 'https://api.flickr.com/services/rest/',
+        url: 'https://api.flickr.com/services/rest/?',
         data: {
-            format: 'json',
-            //method: 'flickr.interestingness.getList',
             method: 'flickr.photosets.getPhotos',
+            
+            //method: 'flickr.interestingness.getList',
             //api_key: '7617adae70159d09ba78cfec73c13be3'
             api_key: '5f6398f0051388362b59218103af392c',
             photoset_id: '72157646413131665',
-            api_sig: '02dd23063e5a80f4edd8964931b37ebd',
+            format: 'json',
+            api_sig: '02dd23063e5a80f4edd8964931b37ebd'
         },
         dataType: 'jsonp',
         jsonp: 'jsoncallback'
