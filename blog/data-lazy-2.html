@@ -33,83 +33,18 @@
 							<p><a href="../poto.html">.momentum</a></p>
 						</div>
 					<div class="col-lg-12 text-center">
-							<h1>Presenting data in lazy way but awesome.</h1>
-							<h2>August, 20 2014. 1 minutes read. Part 1.</h2>
+							<h1>Presenting data in lazy way but awesome. Part 2.</h1>
+							<h2>August, 20 2014. 1 minutes read.</h2>
 							<br><br><br>
 					</div>
-					<div class="blogcontent col-lg-12">
-						<p>Nothing special here, except finding new methode to kill my laziness for touch with data driven document. Ok. Lets roll.</p>
-						<p>For presenting data, we can use <a href="http://d3js.org/">this</a>, <a href="http://nvd3.org/">this</a> or <a href="http://c3js.org/">this</a>. Now I choose <a href="http://c3js.org/">this.</a></p>
-						<p>We have this data. How we presenting in lazy way but awesome?. Let say we way this table.</p>
-						<table class="table table-striped">
-						<thead> 
-  							<tr>
-     							<th>Month</th>
-     							<th>Gas</th>
-     							<th>Electricity</th>
-     							<th>Phone Bill</th>
-     							<th>Credit Card</th>
-     						</tr>
-						</thead>
-						<tbody>
-							<tr>
-      							<td>October 2012</td>
-      							<td>3120</td>
-      							<td>2360</td>
-      							<td>7147</td>
-      							<td>5150</td>
-    						</tr>
-
-    						<tr>
-      							<td>November 2012</td>
-      							<td>4200</td>
-      							<td>4320</td>
-      							<td>6830</td>
-      							<td>3220</td>
-    						</tr>
-
-    						<tr>
-      							<td>December 2012</td>
-      							<td>5100</td>
-      							<td>7230</td>
-      							<td>3271</td>
-      							<td>4310</td>
-    						</tr>
-
-    						<tr>
-      							<td>January 2013</td>
-      							<td>3400</td>
-      							<td>6625</td>
-      							<td>5240</td>
-      							<td>6340</td>
-    						</tr>
-
-    						<tr>
-      							<td>February 2013</td>
-      							<td>2150</td>
-      							<td>4615</td>
-      							<td>4789</td>
-      							<td>7613</td>
-    						</tr>
-
-    						<tr>
-      							<td>March 2013</td>
-      							<td>3370</td>
-      							<td>1225</td>
-      							<td>2703</td>
-      							<td>9925</td>
-    						</tr>	
-						</tbody>
-						</table>
-
-						</td> 
-
-					</div>
+					
+						
 
 					<div class="blogcontent col-lg-12">
-						<p>Here the line chart.</p>
+						<p>Our monthly bill.</p>
 						<div id="chart"></div>
-						<p>Do you think is awesome? For me is not. Why? Just see difference with <a href="data-lazy-2.html">this</a>.</p>
+						<p>See the differences?  Give me shot.</p>
+						<div id="disqus_thread"></div>
 					</div>
 					<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 					<script src="../js/c3.min.js" charset="utf-8"></script>
@@ -119,10 +54,6 @@
     						data: {
         						columns: [
             						['Gas', 3120, 4200, 5100, 3400, 2150, 3370],
-            						['Electricity', 2360, 4320, 7230, 6652, 4615, 1225],
-            						['Phone Bill', 7147, 6830, 3271, 5420, 4789, 2703],
-            						['Credit Card', 5150, 3320, 4310, 6340, 7613, 9225],
-
           						],
           						axes: {
             						gas: 'y',
@@ -142,16 +73,36 @@
             						}
           						},
       	  					},
-					        tooltip: {
-					      //    enabled: true
-					        },
-					        zoom: {
-					        //  enabled: true
-					        },
-					        subchart: {
-					//          show: true
-					        }
-					      });						
+					      });
+
+					      setTimeout(function () {
+					        chart.load({
+					          columns: [
+					            ['Electricity', 2360, 4320, 7230, 6652, 4615, 1225],
+					          ]
+					        });
+					        
+					      }, 1000);
+												
+					      setTimeout(function () {
+					        chart.load({
+					          columns: [
+					            ['Phone Bill', 7147, 6830, 3271, 5420, 4789, 2703],
+					          ]
+					        });
+					        
+					      }, 1500);
+
+					      setTimeout(function () {
+					        chart.load({
+					          columns: [
+					            ['Credit Card', 5150, 3320, 4310, 6340, 7613, 9225],
+					          ]
+					        });
+					        
+					      }, 2000);
+					    
+						
 					</script>
 				</div>
 			</div>
@@ -176,5 +127,35 @@
   		ga('send', 'pageview');
 
 	</script>
+
+	<script type="text/javascript">
+       			 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        			var disqus_shortname = 'hepidad'; // required: replace example with your forum shortname
+
+        		/* * * DON'T EDIT BELOW THIS LINE * * */
+        		(function() {
+            		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+           		 		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        			})();
+    			</script>
+    			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+
+
+	<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'hepidad'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
 	</body>
 </html>
