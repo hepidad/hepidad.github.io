@@ -329,3 +329,10 @@ div#columns:hover figure:not(:hover) {
   }
 }
 
+#awful-img {
+  transition: opacity .12s;
+}
+
+#awful-img.hidden  {
+  opacity: 0;
+}
