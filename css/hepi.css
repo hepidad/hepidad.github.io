@@ -290,7 +290,7 @@ div#columns:hover figure:not(:hover) {
   font-style: italic;
 }
 
-.bq-hepi-code p{
+.bq-hepi-code {
   display:block;
   background: #fff;
   padding: 15px 20px 15px 45px;
