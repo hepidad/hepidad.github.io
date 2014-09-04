@@ -1,31 +1,21 @@
- 
-
-
-
-
-How to remote Microsoft Windows Machine with GNU/Linux Operating System ?
-
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>@hepidad</title>
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link href="../css/hepi.css" rel="stylesheet">
 		<!--
-				
 				 ,-.  .               .       .
 				/,-.\ |-. ,-. ,-. . ,-| ,-. ,-|
 				|,-|| | | |-' | | | | | ,-| | |
 				\`-^/ ' ' `-' |-' ' `-' `-^ `-'
  				 `-'          |                
- 				              '                                                                               
-
+ 				              '
 		-->
 	</head>
-	
 	<body>
-		
 			<div class="container">
 				<div class="row">
 					<br> <br>
@@ -39,7 +29,7 @@ How to remote Microsoft Windows Machine with GNU/Linux Operating System ?
 							<p><a href="../poto.html">.momentum</a></p>
 						</div>
 					<div class="col-lg-12 text-center">
-							<h1>Your boss using Windows, and you using GNU/Linux, how to help her open Winamp from your desk?</h1>
+							<h1>Your boss using Windows, and you using GNU/Linux, how to help her from your desk?</h1>
 							<h2>January, 13 2011. 2 minutes read.</h2>
 							<br><br>
 					</div>
@@ -48,33 +38,24 @@ How to remote Microsoft Windows Machine with GNU/Linux Operating System ?
 
 						<p>Ok how?</p>
 
-						<p>Windows can be remoted by using Remote Desktop Protocol (RDP). This protocols is design to communicate other OS with Microsoft Windows Machine. To use remote with this protocol on GNU/Linux, use tiny apps but awesome called  "rdekstop". 
+						<p>Windows can be remoted by using Remote Desktop Protocol (RDP). This protocols is design to communicate other OS with Microsoft Windows Machine. To use remote with this protocol on GNU/Linux, use tiny apps but awesome called  "rdekstop". Just like following screenshoot.</p>
+						<img src="images/rdekstopskrinshut1.png">
 
-But how to get this stuff:
 
-#apt-get install rdesktop
+						<p>But how to get this stuff?</p>
+						<p>Here the magic command </p>
+						<p class="bq-hepi-code">#apt-get install rdesktop</p>
+						<p>Afer it finished, use with command :</p>
+						<p class="bq-hepi-code">#rdesktop ip.computer.to.remoted</p>
+						<p>i.e, we want remote computer with IP 192.168.2.2, then use :</p>
+						<p class="bq-hepi-code">#rdesktop 192.168.2.2</p>
+						<p>If you want to display fullscreen, just use this command</p>
+						<p class="bq-hepi-code">#rdesktop -A 192.168.2.2</p>
+						<p>and voila, you can help your boss windows directly from your desk.</p>
 
-Afer it finished, use with command :
-
-#rdesktop ip.computer.to.remoted
-
-i.e, we want remote computer with IP 192.168.2.2, then command :
-
-#rdesktop 192.168.2.2
-
-If you want to display fullscreen, just add command :
-
-#rdesktop -A 192.168.2.2
-
-and..tarra..., you can acces Microsoft Windows Machine from GNU/linux
-
-PS:
-
-More about RDP : http://support.microsoft.com/kb/186607
-
-More about rdekstop : http://www.rdesktop.org/
-
-This Screenshot from mine:</p>
+						
+						<p>More about RDP <a href="http://support.microsoft.com/kb/186607" >here</a>, and more about rdekstop<a href="http://www.rdesktop.org/">here</a>.</p>  
+						
 
 					</div>
 					<div class="col-lg-12">
@@ -102,7 +83,7 @@ This Screenshot from mine:</p>
 
 	<script type="text/javascript">
        			 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        			var disqus_shortname = 'hepidadblog-whytits'; // required: replace example with your forum shortname
+        			var disqus_shortname = 'hepidadblog-remotedesktop'; // required: replace example with your forum shortname
 
         		/* * * DON'T EDIT BELOW THIS LINE * * */
         		(function() {

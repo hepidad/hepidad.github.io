@@ -290,6 +290,26 @@ div#columns:hover figure:not(:hover) {
   font-style: italic;
 }
 
+.bq-hepi-code{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: 'Droid Sans Mono', cursive;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
 
 .hepidisclaimer p{
   color:  #5a5a5a; /*Color of Disclaimer Text*/
