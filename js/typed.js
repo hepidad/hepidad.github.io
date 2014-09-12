@@ -29,6 +29,8 @@
 
     var Typed = function(el, options){
 
+        self = this;
+
         // chosen element to manipulate text
         this.el = $(el);
         // options
@@ -264,7 +266,7 @@
         // time before backspacing
         backDelay: 500,
         // loop
-        loop: false,
+        loop: true,
         // false = infinite
         loopCount: false,
         // ending callback function
