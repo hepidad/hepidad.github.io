@@ -34,6 +34,28 @@
 							<h2>Born in 1982. 335 Km cycling so far.</h2>
 							<br><br>
 					   </div>
+						 <div id="buttons">
+	 					 		<i id="link-toc" class="fa fa-bars"></i>
+ 				 		 </div>
+
+						 <div id="flex-box">
+  					 <section id="sidebar">
+
+
+							 <div class="toc-element clearfix">
+  						 <span class="fa fa-th fa-1x fa-code"></span> <a href="http://bit.ly/hepidad">@hepidad</a>
+						 	</div>
+
+
+
+<div class="toc-element clearfix">
+  <span class="fa fa-1x fa-graduation-cap"></span> <a href="/moodle/">Moodle</a>
+</div>
+
+<div class="toc-element clearfix">
+  <span class="fa fa-1x fa-cogs"></span> <a href="/phpmyadmin/">phpmyadmin</a>
+</div>
+</div>
 
 						<div class="blogcontent col-sm-12 col-md-12 col-lg-12">
         					<p> A PhD Student at <a href="http://ewww.kumamoto-u.ac.jp/">Kumamoto University</a> actually.<br>But prefers to known as a long life learner and passionate researcher at <a href='http://reset.or.id/'>RESET Indonesia</a>. In daily life, I implements Mr.P philosophy:</p>
@@ -72,6 +94,22 @@
           });
         });
     </script>
+
+<script type="text/javascript">
+		  var toggled;
+		  $("#link-toc").click(function (event) {
+		    event.preventDefault();
+		    var sidebar = $("#sidebar");
+		    if (!toggled) {
+		      sidebar.transition({x: '25rem'});
+		      toggled = true;
+		    } else {
+		      sidebar.transition({x: '-25rem'});
+		      toggled = false;
+		    }
+		  });
+</script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
