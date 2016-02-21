@@ -363,6 +363,18 @@ div#columns:hover figure:not(:hover) {
   opacity: 0;
 }
 
+/* Header
+----------------------------------------------------------------- */
+
+header {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+header #buttons {
+    display: inline-block;
+    font-size: 30px;
+    padding: 30px;
+}
 
 #buttons i {
     cursor: pointer;
