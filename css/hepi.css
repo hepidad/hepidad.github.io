@@ -367,7 +367,8 @@ div#columns:hover figure:not(:hover) {
 ----------------------------------------------------------------- */
 
 header {
-    border-bottom: 1px solid #E0E0E0;
+  /*  Sometimes I want border or borderless :D
+  border-bottom: 1px solid #E0E0E0;*/
 }
 
 header #buttons {
