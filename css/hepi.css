@@ -60,6 +60,11 @@ h3{
   padding: 14px 10px;
 }
 
+.blogcontent li {
+	font-family: 'Roboto Slab', serif;
+	color: #5a5a5a;
+  font-size: 38px;
+}
 
 .element{
 	display: inline;
