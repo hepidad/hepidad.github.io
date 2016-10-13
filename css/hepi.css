@@ -73,6 +73,14 @@ h3{
   font-size: 18px;
   padding: 14px 0px;
 }
+
+.pubscontent li {
+	font-family: 'Roboto Slab', serif;
+	color: #5a5a5a;
+  font-size: 18px;
+  padding: 0px 0px;
+}
+
 .blogcontent li {
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
