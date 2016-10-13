@@ -60,6 +60,19 @@ h3{
   padding: 14px 10px;
 }
 
+.pubscontent p {
+	font-family: 'Roboto Slab', serif;
+	color: #5a5a5a;
+  font-size: 18px;
+  padding: 14px 10px;
+}
+
+.pubscontent judul {
+	font-family: 'Roboto Slab', serif;
+	color: #3498db;
+  font-size: 18px;
+  padding: 14px 0px;
+}
 .blogcontent li {
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
