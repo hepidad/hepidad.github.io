@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ALice",
+    "jobs" : "news anchor",
+    "foods": {
+      "likes": ["Nasi Padang", "Noodles", "kebab"],
+      "dislikes": ["Burger"]
+    }
+  },
+  {
+    "name": "Charlie",
+    "jobs" : "fitness coach",
+    "foods": {
+      "likes": ["Tofu"],
+      "dislikes": ["ham"]
+    }
+  },
+  {
+    "name": "Bobby",
+    "jobs" : "programmer",
+    "foods": {
+      "likes": ["Chicken Curry"],
+      "dislikes": ["Meatloaf"]
+    }
+  },
+]
