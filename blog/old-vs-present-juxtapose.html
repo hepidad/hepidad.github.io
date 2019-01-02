@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Play Juxtapose JS</title>
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/c3.css" rel="stylesheet">
+        <link href="../css/hepi.css" rel="stylesheet">
+        <!--
+
+                 ,-.  .               .       .
+                /,-.\ |-. ,-. ,-. . ,-| ,-. ,-|
+                |,-|| | | |-' | | | | | ,-| | |
+                \`-^/ ' ' `-' |-' ' `-' `-^ `-'
+                 `-'          |
+                              '
+
+        -->
+    </head>
+
+    <body>
+
+        <header>
+            <div id="buttons">
+                <i id="link-toc" class="fa fa-bars"></i>
+            </div>
+        </header>
+    <div id="flex-box">
+            <section id="sidebar">
+                <div class="toc-element clearfix">
+                    <span class="fa fa-th fa-1x fa-code"></span> <a href="../me.html">.me</a>
+                </div>
+                <div class="toc-element clearfix">
+                    <span class="fa fa-1x fa-graduation-cap"></span> <a href="../blog.html">.dirtymind</a>
+                </div>
+                <div class="toc-element clearfix">
+                    <span class="fa fa-1x fa-camera-retro"></span> <a href="../poto.html">.momentum</a>
+                </div>
+         </section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                            <h1>Past vs Present: Juxtapose JS</h1>
+                            <h2>January, 02 2016. 1.5 minutes read.</h2>
+                            <br><br><br>
+                    </div>
+
+
+
+                    <div class="blogcontent col-lg-12">
+                        <p>It's time to tell the stories.</p>
+                        
+                        <p>See the differences? Nice huh? Just imagine if integrated with live data like: <q>Flight information at some airport. Depart and Arrival.</q>. Watch this <a href="http://www.ted.com/search?q=data+driven">talk</a>. Tell me what your thought.</p>
+                    </div>
+
+                    <script src="../js/jquery-2.2.0.min.js" type="text/javascript"></script>
+                    <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+                    <script src="../js/jquery.transit.min.js" type="text/javascript"></script>
+
+                    <script type="text/javascript">
+                            var toggled;
+                            $("#link-toc").click(function (event) {
+                                event.preventDefault();
+                                var sidebar = $("#sidebar");
+                                if (!toggled) {
+                                    sidebar.transition({x: '25rem'});
+                                    toggled = true;
+                                } else {
+                                    sidebar.transition({x: '-25rem'});
+                                    toggled = false;
+                                }
+                            });
+                    </script>
+
+                    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+                    <script src="../js/c3.min.js" charset="utf-8"></script>
+                    <script src="../js/c3.js"></script>
+                    <script type="text/javascript">
+                        var chart = c3.generate({
+                            data: {
+                                columns: [
+                                    ['Gas', 3120, 4200, 5100, 3400, 2150, 3370],
+                                ],
+                                axes: {
+                                    gas: 'y',
+                                    elect: 'y',
+                                    phone: 'y',
+                                    cc: 'y'
+                                }
+                            },
+                            axis: {
+                                x: {
+                                    label: 'Montly Bill'
+                                },
+                                y: {
+                                    label: {
+                                        text: 'In JPY',
+                                        position: 'outer-middle'
+                                    }
+                                },
+                            },
+                          });
+
+                          setTimeout(function () {
+                            chart.load({
+                              columns: [
+                                ['Electricity', 2360, 4320, 7230, 6652, 4615, 1225],
+                              ]
+                            });
+
+                          }, 2000);
+
+                          setTimeout(function () {
+                            chart.load({
+                              columns: [
+                                ['Phone Bill', 7147, 6830, 3271, 5420, 4789, 2703],
+                              ]
+                            });
+
+                          }, 3000);
+
+                          setTimeout(function () {
+                            chart.load({
+                              columns: [
+                                ['Credit Card', 5150, 3320, 4310, 6340, 7613, 9225],
+                              ]
+                            });
+
+                          }, 4000);
+
+
+                    </script>
+                </div>
+            </div>
+
+    </body>
+</html>
