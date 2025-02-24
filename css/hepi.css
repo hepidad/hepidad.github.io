@@ -5,20 +5,20 @@ html,body {
 h1{
 	font-family: 'Roboto Slab', sans-serif;
 	font-size:58px;
-  color: #5a5a5a;
+    color: #5a5a5a;
 	padding: 14px 10px;
 }
 h2{
 	font-family: 'Roboto Slab', sans-serif;
 	font-size:28px;
 	color: #5a5a5a;
-  padding: 14px 10px;
+    padding: 14px 10px;
 }
 h3{
 	font-family: 'Roboto Slab', sans-serif;
 	font-size:18px;
 	color: #5a5a5a;
-  padding: 14px 10px;
+    padding: 14px 10px;
 }
 
 .blog-list-title h1{
