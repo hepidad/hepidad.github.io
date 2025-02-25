@@ -1,5 +1,31 @@
+/*
+         ,-.  .               .       .
+        /,-.\ |-. ,-. ,-. . ,-| ,-. ,-|
+        |,-|| | | |-' | | | | | ,-| | |
+        \`-^/ ' ' `-' |-' ' `-' `-^ `-'
+         `-'          |
+                      '
+*/
+
 html,body {
-  height:100%;
+    height:100%;
+}
+table {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size:18px;
+    color: #5a5a5a;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
 
 h1{
@@ -35,50 +61,50 @@ h3{
 .quotes  p{
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
-  font-size: 12px;
-  padding: 14px 10px;
+    font-size: 12px;
+    padding: 14px 10px;
 }
 
 .hepinavbar  p{
-  font-family: 'Roboto Slab', serif;
-  color: #5a5a5a;
-  font-size: 12px;
-  padding: 14px 10px;
+    font-family: 'Roboto Slab', serif;
+    color: #5a5a5a;
+    font-size: 12px;
+    padding: 14px 10px;
 }
 
 .bloglist p{
-  font-family: 'Roboto Slab', serif;
-  color: #5a5a5a;
-  font-size: 18px;
-  padding: 14px 10px;
+    font-family: 'Roboto Slab', serif;
+    color: #5a5a5a;
+    font-size: 18px;
+    padding: 14px 10px;
 }
 
 .blogcontent p {
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
-  font-size: 38px;
-  padding: 14px 10px;
+    font-size: 38px;
+    padding: 14px 10px;
 }
 
 .pubscontent p {
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
-  font-size: 18px;
-  padding: 14px 10px;
+    font-size: 18px;
+    padding: 14px 10px;
 }
 
 .pubscontent judul {
 	font-family: 'Roboto Slab', serif;
 	color: #3498db;
-  font-size: 18px;
-  padding: 14px 0px;
+    font-size: 18px;
+    padding: 14px 0px;
 }
 
 .pubscontent li {
 	font-family: 'Roboto Slab', serif;
 	color: #5a5a5a;
-  font-size: 18px;
-  padding: 0px 0px;
+    font-size: 18px;
+    padding: 0px 0px;
 }
 
 .blogcontent li {
@@ -197,14 +223,12 @@ background-size: cover;
     }
 }
 
-
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
 }
-
 
 #columns {
 	column-width: 320px;
