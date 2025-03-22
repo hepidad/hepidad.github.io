@@ -555,3 +555,23 @@ header #buttons {
 #content-body img {
     width: 100%;
 }
+
+/* Footer
+----------------------------------------------------------------- */
+footer {
+        text-align: center;
+        background-color: #f8f9fa;
+        padding: 20px;
+        font-family: 'Roboto Slab', sans-serif;
+        bottom: 0;
+        width: 100%;
+    }
+
+footer p {
+        margin: 5px 0;
+    }
+
+.icons {
+        font-size: 1.2em;
+        color: #ff6f61; /* Love icon in red */
+    }
